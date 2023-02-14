@@ -1,0 +1,29 @@
+.container {
+  background-color: #FFFFFF;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.navBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 116px;
+  height: 34px;
+  padding: 8px 15px;
+  gap: 10px;
+  border-radius: 5px;
+  border: none;
+  
+  left: 71.53%;
+  right: 20.42%;
+  top: 31.11%;
+  bottom: 31.11%;
+  background-color: #F39200;
+  color: white;
+  cursor: pointer;
+}
+
+.navBtn:hover {
+  background-color: #c27500;
+}
