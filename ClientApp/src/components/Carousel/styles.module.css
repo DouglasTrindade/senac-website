@@ -1,0 +1,9 @@
+.carouselItem {
+  height: 580px;
+}
+
+.carouselImage {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.8);
+}

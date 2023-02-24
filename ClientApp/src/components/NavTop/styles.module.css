@@ -1,0 +1,20 @@
+.container {
+  background-color: #FFFFFF;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.btnNav {
+  background-color: #F39200;
+  border: none;
+  height: 34px;
+  padding: 8px 15px;
+}
+
+.btnNav:hover {
+  background-color: #da7a00;
+}
+
+.btnNav:active {
+  background-color: #c27500 !important;
+}
