@@ -1,42 +1,58 @@
-import styles from './styles.module.css';
+import styles from "./styles.module.css"
+import Carousel from 'react-bootstrap/Carousel';
+import Container from "react-bootstrap/esm/Container";
 
-const Carousel = () => {
+const Slider = () => {
   return (
-    <>
-      <div id="heroCarousel" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-indicators">
-          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div className="carousel-inner">
-          <div className={`carousel-item active ${styles.carouselItem}`}>
-            <img src="images/empregador.png" className={`d-block w-100 ${styles.carouselImage}`} alt="Slide 1" />
-            <div className="carousel-caption top-0 mt-4">
-            </div>
+    
+    <Carousel className={styles.carouselImage}>
+        <Carousel.Item>
+          <div className="w-100 d-flex flex-column justify-content-center text-white active"
+            style={{
+              backgroundImage: `url("images/senac2.png")`,
+              backgroundPosition: `center center`,
+              backgroundSize: `cover`,
+              baclgroundRepeat: `no-repeat`,
+              height: `65vh`
+            }}>
+              <Container>
+                <h3 className={`text-wrap ${styles.text}`} style={{ width: '25%' }} size="xs">Aluno ou ex-aluno Senac RN, encontre as melhores vagas do mercado</h3>
+                <button className={`d-flex justify-content-center align-items-center gap-2 btn text-white text-uppercase mt-4 ${styles.btnNav}`}>
+                  encontrar vagas
+                </button>
+              </Container>
           </div>
-          <div className={`carousel-item ${styles.carouselItem}`}>
-            <img src="images/carreira.png" className={`d-block w-100 ${styles.carouselImage}`} alt="Slide 2" />
-            <div className="carousel-caption top-0 mt-4">
-            </div>
+        </Carousel.Item>
+        <Carousel.Item>
+        <div className="w-100 d-flex flex-column justify-content-center text-white"
+            style={{
+              backgroundImage: `url("images/senac3.png")`,
+              backgroundPosition: `center center`,
+              backgroundSize: `cover`,
+              baclgroundRepeat: `no-repeat`,
+              height: `65vh`
+            }}>
+              <Container>
+                <h3 className={`text-wrap ${styles.text}`} style={{ width: '25%' }}>Conte com profissionais qualificados para sua empresa</h3>
+                <button className={`d-flex justify-content-center align-items-center gap-2 btn text-white text-uppercase mt-4 ${styles.btnNav}`}>
+                  cadastrar vaga
+                </button>
+              </Container>
           </div>
-          <div className={`carousel-item ${styles.carouselItem}`}>
-            <img src="images/minhacarreira.png" className={`d-block w-100 ${styles.carouselImage}`} alt="Slide 3" />
-            <div className="carousel-caption top-0 mt-4">
-            </div>
+        </Carousel.Item>
+        <Carousel.Item>
+        <div className="w-100 d-flex flex-column justify-content-center text-white"
+            style={{
+              backgroundImage: `url("images/senac1.png")`,
+              backgroundPosition: `center center`,
+              backgroundSize: `cover`,
+              baclgroundRepeat: `no-repeat`,
+              height: `65vh`
+            }}>
           </div>
-        </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div>
-    </>
-  )
+        </Carousel.Item>
+    </Carousel>
+  );
 }
 
-export default Carousel
+export default Slider

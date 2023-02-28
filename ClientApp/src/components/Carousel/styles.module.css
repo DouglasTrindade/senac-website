@@ -5,5 +5,28 @@
 .carouselImage {
   height: 100%;
   object-fit: cover;
-  filter: brightness(0.8);
+}
+
+.btnNav {
+  background-color: #F39200;
+  border: none;
+  height: 38px;
+  padding: 8px 15px;
+  width: 192px;
+}
+
+.btnNav:hover {
+  background-color: #da7a00;
+}
+
+.btnNav:active {
+  background-color: #c27500 !important;
+}
+
+.text {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
 }
