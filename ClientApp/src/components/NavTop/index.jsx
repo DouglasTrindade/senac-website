@@ -1,15 +1,12 @@
-import Container from 'react-bootstrap/Container';
 import styles from './styles.module.css';
-
 
 const NavTop = () => {
   
-  
   return (
     <>
-      <Container className={`${styles.container}`}>
+      <div className={`container ${styles.container}`}>
         <div className="row">
-          <div className="mx-4 mx-md-0 col-md-6">
+          <div className="col-md-6">
             <img src="images/logo-home.svg" alt="Logo Empregabilidade" />
           </div>
           <div className="justify-content-center mt-4 mt-md-0 justify-content-md-end d-flex gap-3 col-md-6">
@@ -23,7 +20,7 @@ const NavTop = () => {
             </button>
           </div>
         </div>
-      </Container>
+      </div>
     </>
   )
 }

@@ -1,6 +1,5 @@
 import styles from "./styles.module.css"
 import Carousel from 'react-bootstrap/Carousel';
-import Container from "react-bootstrap/esm/Container";
 
 const Slider = () => {
   return (
@@ -15,12 +14,12 @@ const Slider = () => {
               baclgroundRepeat: `no-repeat`,
               height: `65vh`
             }}>
-              <Container>
-                <h3 className={`text-wrap ${styles.text}`} style={{ width: '25%' }} size="xs">Aluno ou ex-aluno Senac RN, encontre as melhores vagas do mercado</h3>
+              <div className="container">
+                <h3 className={`d-flex text-wrap ${styles.text}`} style={{ width: '25%' }}>Aluno ou ex-aluno Senac RN, encontre as melhores vagas do mercado</h3>
                 <button className={`d-flex justify-content-center align-items-center gap-2 btn text-white text-uppercase mt-4 ${styles.btnNav}`}>
                   encontrar vagas
                 </button>
-              </Container>
+              </div>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -32,12 +31,12 @@ const Slider = () => {
               baclgroundRepeat: `no-repeat`,
               height: `65vh`
             }}>
-              <Container>
+              <div className="container">
                 <h3 className={`text-wrap ${styles.text}`} style={{ width: '25%' }}>Conte com profissionais qualificados para sua empresa</h3>
                 <button className={`d-flex justify-content-center align-items-center gap-2 btn text-white text-uppercase mt-4 ${styles.btnNav}`}>
                   cadastrar vaga
                 </button>
-              </Container>
+              </div>
           </div>
         </Carousel.Item>
         <Carousel.Item>

@@ -39,7 +39,7 @@ const NavMenu = () => {
             </ul>
           </div>
           <Button className="d-none-block d-lg-none d-xl-none d-xxl-none" onClick={() => setIsOpen(!isOpen)} aria-controls="collapse-menu" aria-expanded={isOpen}>
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </Button>
             <Collapse in={isOpen}>
               <div id="collapse-menu">
