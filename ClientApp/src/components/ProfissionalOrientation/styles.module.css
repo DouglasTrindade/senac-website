@@ -1,0 +1,29 @@
+* {
+  font-family: 'Work Sans';
+}
+
+.title {
+  font-weight: 400;
+  font-size: 40px;
+  color: #0064B8;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.btnKnowMore {
+  width: 145px;
+  height: 38px;
+
+  background: #0064B8;
+}
+
+.btnKnowMore:hover {
+  background-color: #03579e;
+}
+
+.btnKnowMore:active {
+  background-color: #034985;
+}

@@ -8,4 +8,30 @@ color: #0064B8;
 
 .card {
   background-color: #FAFAFA;
+  cursor: pointer;
+
+}
+
+.card:hover, .cardHeader:hover {
+  background-color: #0064B8;
+  color: #FFFFFF;
+}
+
+.cardHeader {
+  color: #F39200;
+}
+
+.btnCards {
+  width: 143px;
+  height: 38px;
+
+  background: #0064B8;
+}
+
+.btnCards:hover {
+  background-color: #03579e;
+}
+
+.btnCards:active {
+  background-color: #034985;
 }
