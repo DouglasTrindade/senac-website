@@ -6,11 +6,11 @@ const JobsCard = () => {
   <>
     <div>
       <div className="container mb-4">
-        <div className="mt-5 mb-4" style={{width: '25%'}}>
+        <div className=" mt-5 mb-4" style={{width: '25%'}}>
           <h1 className={`${styles.title}`}>Confira as vagas mais recentes</h1>
         </div> 
-        <div className="row justify-content-lg-between gap-5">
-        <span className={`col-12 col-md-6 col-lg-6 col-xl-4 rounded py-3 ${styles.card}`} style={{ maxWidth: '23rem', minHeight: '18rem' }}>
+        <div className="row justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-between gap-5">
+          <span className={`col-12 col-md-6 col-lg-6 col-xl-4 rounded py-3 ${styles.card}`} style={{ maxWidth: '23rem', minHeight: '18rem' }}>
             <div className={`d-flex justify-content-between fs-6 mb-3 ${styles.cardHeader}`}>
               <div className="fs-6 text-uppercase">Estágio</div>
               <div className="fw-semibold">Natal/RN</div>

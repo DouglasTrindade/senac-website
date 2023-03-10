@@ -1,7 +1,10 @@
 import styles from './styles.module.css';
+import NavMenu from '../NavMenu';
+import { useState } from 'react';
 
 const NavTop = () => {
-  
+  const [menu, setMenu] = useState(false);
+
   return (
     <>
       <div className={`container ${styles.container}`}>
@@ -18,8 +21,13 @@ const NavTop = () => {
               <img src="images/bagWork.png" alt="bag work" />
               Empregador
             </button>
+            <span className="d-flex flex-column d-md-none">
+              <img className="" src="images/menu.png" alt="" />
+              <img src="images/hamburguer.png" alt="" />
+            </span>
           </div>
         </div>
+        <NavMenu menu={menu} />
       </div>
     </>
   )
