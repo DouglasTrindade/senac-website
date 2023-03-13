@@ -6,7 +6,7 @@ const JobsCard = () => {
   <>
     <div>
       <div className="container mb-4">
-        <div className=" mt-5 mb-4" style={{width: '25%'}}>
+        <div className="mt-5 mb-4 mx-5" style={{width: '25%'}}>
           <h1 className={`${styles.title}`}>Confira as vagas mais recentes</h1>
         </div> 
         <div className="row justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-between gap-5">

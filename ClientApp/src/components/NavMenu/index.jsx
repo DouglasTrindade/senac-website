@@ -1,9 +1,5 @@
 import styles from './styles.module.css';
-
-
-import { Button}  from 'react-bootstrap'
 import { Collapse } from 'react-bootstrap'
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const NavMenu = ({menu = false}) => {

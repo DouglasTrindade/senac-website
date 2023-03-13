@@ -4,7 +4,7 @@ const EmployerCandidate = () => {
   return (
     <>
       <div className="container">
-        <div className="d-flex flex-wrap justify-content-between flex-sm-wrap flex-md-wrap justify-content-md-center flex-lg-nowrap flex-xl-nowrap mt-5 gap-3">
+        <div className="d-flex flex-wrap justify-content-between flex-sm-wrap flex-md-wrap justify-content-md-center flex-lg-nowrap flex-xl-nowrap mt-5 gap-5">
           <Link to="/">
             <img className="img-fluid" src="images/btn-candidato-login.png" alt="Botão Candidato Login"></img>
           </Link>

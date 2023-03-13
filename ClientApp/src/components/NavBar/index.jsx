@@ -21,9 +21,11 @@ const NavTop = () => {
               <img src="images/bagWork.png" alt="bag work" />
               Empregador
             </button>
-            <span className="d-flex flex-column d-md-none">
-              <img className="" src="images/menu.png" alt="" />
-              <img src="images/hamburguer.png" alt="" />
+            <span className="d-flex flex-column d-md-none" onClick={(e) => {
+              setMenu(!menu)
+            }}>
+              <img className="" src="images/menu.png" alt="menu-dropdown" />
+              <img src="images/hamburguer.png" alt="dropdown" />
             </span>
           </div>
         </div>

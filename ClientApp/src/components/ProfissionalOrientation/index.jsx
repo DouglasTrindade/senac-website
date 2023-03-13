@@ -4,9 +4,9 @@ const ProfissionalOrientation = () => {
   return (
     <>
       <div className="main mt-5" style={{backgroundColor: '#FAFAFA'}}>
-        <div className="container">
-          <div className='row'>
-            <div className='col'>
+        <div className="container d-flex">
+          <div className="w-100">
+            <div style={{width: "450px"}}>
               <div className={`w-100 mt-4 ${styles.title}`}>
                 Obtenha orientação na carreira profissional
               </div>
@@ -23,11 +23,9 @@ const ProfissionalOrientation = () => {
                 <button className={`text-uppercase rounded border border-0 text-white ${styles.btnKnowMore}`}>saiba mais</button>
               </div>
             </div>
-            <div className='col'><img src="images/profissional-orientation.png" width={650} alt="Orientação Profissional"></img></div>
           </div>
-
+          <div className={`w-50 ${styles.img}`}><img src="images/profissional-orientation.png" alt="Orientação Profissional"></img></div>
         </div>
-        
       </div>
     </>
   )
