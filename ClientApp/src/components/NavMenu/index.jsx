@@ -6,64 +6,62 @@ const NavMenu = ({menu = false}) => {
 
   return (
     <>
-      <nav className={`border navbar navbar-expand-lg ${styles.navbar}`}>
+      <nav className={`navbar navbar-expand-lg w-100 d-none d-lg-block ${styles.navbar}`}>
         <div className="container-fluid">
-          <div className="container mb-2 mt-2 d-none d-sm-none d-lg-block">
-            <ul className={`navbar-nav d-flex gap-5 me-auto mb-2 mb-lg-0 ${styles.menu}`}>
+          <div className="container mb-2 mt-2 d-none d-lg-block">
+            <ul className={`navbar-nav d-flex gap-lg-5 me-auto mb-2 mb-lg-0 ${styles.menu}`}>
               <Link to="/">
-                <li className="nav-item">Início</li>
+                <li className="nav-item text-nowrap">Início</li>
               </Link>
               <Link to="/">
-                <li className="nav-item">Quem somos</li>
+                <li className="nav-item text-nowrap">Quem somos</li>
               </Link>
               <Link to="/">
-                <li className="nav-item">Vagas</li>
+                <li className="nav-item text-nowrap">Vagas</li>
               </Link>
               <Link to="/">
-                <li className="nav-item">Orientação Profissional</li>
+                <li className="nav-item text-nowrap">Orientação Profissional</li>
               </Link>
               <Link to="/">
-                <li className="nav-item">Fale Conosco</li>
+                <li className="nav-item text-nowrap">Fale Conosco</li>
               </Link>
               <Link to="/">
-                <li className="nav-item">Portal Senac</li>
+                <li className="nav-item text-nowrap">Portal Senac</li>
               </Link>
               <Link to="/">
-                <li className="nav-item">Central de Dúvidas</li>
+                <li className="nav-item text-nowrap">Central de Dúvidas</li>
               </Link>
             </ul>
           </div>
-          <Collapse in={menu}>
-            <div id="collapse-menu">
-              <div className="container mb-2 mt-2">
-                <ul className={`navbar-nav d-flex gap-5 me-auto mb-2 mb-lg-0 ${styles.menu}`}>
-                  <Link to="/">
-                    <li className="nav-item">Início</li>
-                  </Link>
-                  <Link to="/">
-                    <li className="nav-item">Quem somos</li>
-                  </Link>
-                  <Link to="/">
-                    <li className="nav-item">Vagas</li>
-                  </Link>
-                  <Link to="/">
-                    <li className="nav-item">Orientação Profissional</li>
-                  </Link>
-                  <Link to="/">
-                    <li className="nav-item">Fale Conosco</li>
-                  </Link>
-                  <Link to="/">
-                    <li className="nav-item">Portal Senac</li>
-                  </Link>
-                  <Link to="/">
-                    <li className="nav-item">Central de Dúvidas</li>
-                  </Link>
-                </ul>
-              </div>
-            </div>
-          </Collapse>
         </div>
       </nav>
+      <Collapse in={menu}>
+            <div className="w-100 mb-2 mt-2">
+              <ul className={`navbar-nav d-flex me-auto mb-2 mb-lg-0 ${styles.menu}`}>
+                <Link to="/" className={`${styles.option}`}>
+                  <li className="container nav-item py-3">Início</li>
+                </Link>
+                <Link to="/" className={`${styles.option}`}>
+                  <li className="container nav-item py-3">Quem somos</li>
+                </Link>
+                <Link to="/" className={`${styles.option}`}>
+                  <li className="container nav-item py-3">Vagas</li>
+                </Link>
+                <Link to="/" className={`${styles.option}`}>
+                  <li className="container nav-item py-3">Orientação Profissional</li>
+                </Link>
+                <Link to="/" className={`${styles.option}`}>
+                  <li className="container nav-item py-3">Fale Conosco</li>
+                </Link>
+                <Link to="/" className={`${styles.option}`}>
+                  <li className="container nav-item py-3">Portal Senac</li>
+                </Link>
+                <Link to="/" className={`${styles.option}`}>
+                  <li className="container nav-item py-3">Central de Dúvidas</li>
+                </Link>
+              </ul>
+            </div>
+        </Collapse>
     </>
   )
 }

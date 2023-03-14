@@ -2,26 +2,26 @@ import styles from './styles.module.css';
 import NavMenu from '../NavMenu';
 import { useState } from 'react';
 
-const NavTop = () => {
+const NavBar = () => {
   const [menu, setMenu] = useState(false);
 
   return (
     <>
-      <div className={`container ${styles.container}`}>
-        <div className="row">
+      <div className="d-flex flex-column align-items-center">
+        <div className={`container row ${styles.container}`}>
           <div className="col-md-6">
             <img src="images/logo-home.svg" alt="Logo Empregabilidade" />
           </div>
-          <div className="justify-content-center mt-4 mt-md-0 justify-content-md-end d-flex gap-3 col-md-6">
-            <button type="button" className={`d-flex justify-content-center align-items-center gap-2 btn text-white ${styles.btnNav}`}>
+          <div className="d-flex justify-content-center mt-4 mt-md-0 justify-content-md-end gap-3 col-md-6">
+            <button type="button" className={`justify-content-center align-items-center gap-2 btn text-white d-none d-lg-flex  ${styles.btnNav}`}>
               <img src="images/iconUser.png" width={14} height={14} alt="user circle" />
               Candidato
             </button>
-            <button type="button" className={`d-flex justify-content-center align-items-center gap-2 btn text-white ${styles.btnNav}`}>
+            <button type="button" className={`justify-content-center align-items-center gap-2 btn text-white d-none d-lg-flex ${styles.btnNav}`}>
               <img src="images/bagWork.png" alt="bag work" />
               Empregador
             </button>
-            <span className="d-flex flex-column d-md-none" onClick={(e) => {
+            <span className="d-flex flex-column d-lg-none" onClick={(e) => {
               setMenu(!menu)
             }}>
               <img className="" src="images/menu.png" alt="menu-dropdown" />
@@ -35,4 +35,4 @@ const NavTop = () => {
   )
 }
 
-export default NavTop
+export default NavBar

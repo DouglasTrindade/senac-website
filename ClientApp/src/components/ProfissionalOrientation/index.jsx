@@ -24,7 +24,9 @@ const ProfissionalOrientation = () => {
               </div>
             </div>
           </div>
-          <div className={`w-50 ${styles.img}`}><img src="images/profissional-orientation.png" alt="Orientação Profissional"></img></div>
+          <div className={`w-50 ${styles.img}`}>
+            <img className="" src="images/profissional-orientation.png" alt="Orientação Profissional"></img>
+          </div>
         </div>
       </div>
     </>

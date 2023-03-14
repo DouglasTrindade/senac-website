@@ -1,6 +1,7 @@
 .navbar {
   background-color: #FAFAFA;
-
+  transition: all;
+  transition-duration: 300ms;
 }
 
 .menu {
@@ -9,8 +10,22 @@
 
 .menu li {
   color: #0064B8;
+  transition: all;
+  transition-duration: 300ms;
 }
 
 .menu li:hover {
+  color: #F39200;
+  transition: all;
+  transition-duration: 300ms;
+}
+
+.menu > .option {
+  transition: all;
+  transition-duration: 300ms;
+}
+
+.option:hover {
+  background: #EDEDED;
   color: #F39200;
 }
