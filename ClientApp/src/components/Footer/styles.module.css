@@ -1,3 +1,25 @@
 .main {
   background-color: #FAFAFA;
+  
 }
+
+.colorTextContact {
+  color: #2B2B2B;
+  font-size: 18px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.colorTextMenu {
+  color: #0064B8;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+  text-decoration: none;
+  }
+
+  .colorTextMenu:hover {
+    color: #F39200;
+    transition: all;
+    transition-duration: 300ms;
+  }
