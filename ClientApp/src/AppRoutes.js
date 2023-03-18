@@ -1,14 +1,15 @@
-import { Counter } from "./components/Counter";
+import { AboutUs } from "./components/AboutUs";
 import { FetchData } from "./components/FetchData";
+import { Layout } from "./components/Layout";
 
 const AppRoutes = [
   // {
   //   index: true,
-  //   element: <Home />
+  //   element: <Layout />
   // },
   {
-    path: '/counter',
-    element: <Counter />
+    path: '/aboutus',
+    element: <AboutUs />
   },
   {
     path: '/fetch-data',

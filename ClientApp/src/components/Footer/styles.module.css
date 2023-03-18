@@ -23,3 +23,11 @@
     transition: all;
     transition-duration: 300ms;
   }
+
+  .bgIcons {
+    color: #0064B8;
+  }
+
+  .bgIcons:hover {
+    color: #004db8
+  }

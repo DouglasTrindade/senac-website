@@ -4,7 +4,7 @@ const ProfissionalOrientation = () => {
   return (
     <>
       <div className="main mt-5 py-4" style={{backgroundColor: '#FAFAFA'}}>
-        <div className="container d-flex flex-wrap flex-md-nowrap">
+        <div className="container d-flex flex-wrap flex-md-nowrap ">
           <div className="w-100">
             <div style={{width: "450px"}}>
               <div className={`w-100 mt-4 ${styles.title}`}>
