@@ -1,19 +1,15 @@
-import { AboutUs } from "./components/AboutUs";
-import { FetchData } from "./components/FetchData";
-import { Layout } from "./components/Layout";
+import AboutUs from "./Pages/AboutUs";
+import Home from "./Pages/Home";
+
 
 const AppRoutes = [
-  // {
-  //   index: true,
-  //   element: <Layout />
-  // },
   {
-    path: '/aboutus',
-    element: <AboutUs />
+    index: true,
+    element: <Home />
   },
   {
-    path: '/fetch-data',
-    element: <FetchData />
+    path: '/quem-somos',
+    element: <AboutUs />
   }
 ];
 

@@ -13,7 +13,7 @@ const NavMenu = ({menu = false}) => {
               <Link to="/">
                 <li className="nav-item text-nowrap">Início</li>
               </Link>
-              <Link to="/AboutUs">
+              <Link to="/quem-somos">
                 <li className="nav-item text-nowrap">Quem somos</li>
               </Link>
               <Link to="/">
@@ -41,7 +41,7 @@ const NavMenu = ({menu = false}) => {
                 <Link to="/" className={`${styles.option}`}>
                   <li className="container nav-item py-3">Início</li>
                 </Link>
-                <Link to="/QuemSomos" className={`${styles.option}`}>
+                <Link to="/" className={`${styles.option}`}>
                   <li className="container nav-item py-3">Quem somos</li>
                 </Link>
                 <Link to="/" className={`${styles.option}`}>
