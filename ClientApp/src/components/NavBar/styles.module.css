@@ -13,6 +13,8 @@
 
 .btnNav:hover {
   background-color: #da7a00;
+  transition: all;
+  transition-duration: 400ms;
 }
 
 .btnNav:active {

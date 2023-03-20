@@ -1,0 +1,121 @@
+.TitleVagas {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  color: #0064B8;
+}
+
+.BtnTemp {
+  width: 148px;
+  height: 38px;
+  color: #F39200;
+  background-color: #FFFF;
+  border-color: #F39200;
+}
+
+.BtnTemp:hover {
+  background-color: #F39200;
+  color: #FFFF;
+  transition: all;
+  transition-duration: 400ms;
+}
+
+.BtnEfet {
+  width: 114px;
+  height: 38px;
+  color: #F39200;
+  background-color: #FFFF;
+  border-color: #F39200;
+}
+
+.BtnEfet:hover {
+  background-color: #F39200;
+  color: #FFFF;
+  transition: all;
+  transition-duration: 400ms;
+}
+
+.BtnPCD {
+  width: 93px;
+  height: 38px;
+  color: #F39200;
+  background-color: #FFFF;
+  border-color: #F39200;
+}
+
+.BtnPCD:hover {
+  background-color: #F39200;
+  color: #FFFF;
+  transition: all;
+  transition-duration: 400ms;
+}
+
+.BtnNac {
+  width: 128px;
+  height: 38px;
+  color: #F39200;
+  background-color: #FFFF;
+  border-color: #F39200;
+}
+
+.BtnNac:hover {
+  background-color: #F39200;
+  color: #FFFF;
+  transition: all;
+  transition-duration: 400ms;
+}
+
+.BtnInter {
+  width: 163px;
+  height: 38px;
+  color: #F39200;
+  background-color: #FFFF;
+  border-color: #F39200;
+}
+
+.BtnInter:hover {
+  background-color: #F39200;
+  color: #FFFF;
+  transition: all;
+  transition-duration: 400ms;
+}
+
+.TextColor {
+  color: #F39200;
+}
+
+.BtnVacJob {
+  font-size: 14px;
+  width: 181px;
+  height: 38px;
+  background-color: #0064B8;
+}
+
+.BtnVacJob:hover {
+  background-color: #03579e;
+}
+
+.BtnVacJob:active {
+  background-color: #034985;
+}
+
+.Scholarity {
+  color: #F39200;
+  font-size: 14px;
+}
+
+.BtnApply {
+  width: 232px;
+  height: 38px;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #0064B8;
+}
+
+.BtnApply:hover {
+  background-color: #03579e;
+}
+
+.BtnApply:active {
+  background-color: #034985;
+}

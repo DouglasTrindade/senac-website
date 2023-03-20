@@ -1,3 +1,60 @@
 .Img {
-  background-image: cover;
+  background-size: cover;
+  width: 100%;
+}
+
+.TitleAboutUs {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.TitleHowWork {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.TitleSenacCourse {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  color: #0064B8;
+}
+
+.BtnCourse {
+  width: 145px;
+  height: 38px;
+  background-color: #0064B8;
+  font-size: 14px;
+}
+
+.BtnCourse:hover {
+  background-color: #03579e;
+}
+
+.BtnCourse:active {
+  background-color: #034985;
+}
+
+.ContactUs {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  color: #0064B8;
+}
+
+.BtnContact {
+  font-size: 14px;
+  width: 216px;
+  height: 38px;
+  background-color: #0064B8;
+}
+
+.BtnContact:hover {
+  background-color: #03579e;
+}
+
+.BtnContact:active {
+  background-color: #034985;
 }

@@ -16,7 +16,7 @@ const NavMenu = ({menu = false}) => {
               <Link to="/quem-somos">
                 <li className="nav-item text-nowrap">Quem somos</li>
               </Link>
-              <Link to="/">
+              <Link to="/vagas">
                 <li className="nav-item text-nowrap">Vagas</li>
               </Link>
               <Link to="/">

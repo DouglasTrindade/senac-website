@@ -6,7 +6,7 @@ const SayPartners = () => {
   
   return (
     <>
-      <div className="container mt-5 d-flex flex-wrap flex-md-nowrap">
+      <div className="container d-flex flex-wrap flex-md-nowrap py-5">
         <div className={`w-25 d-flex align-items-center ${styles.text}`}>
           O que nossos parceiros dizem
         </div>

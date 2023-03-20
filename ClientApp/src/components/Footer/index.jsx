@@ -11,10 +11,10 @@ import styles from './styles.module.css';
 const Footer = () => {
   return (
     <>
-      <div className={`mt-5 pb-5 ${styles.main}`}>
+      <div className={`p-4 ${styles.main}`}>
         <div className="container">
           <div className="row text-center">
-            <div className="col-md-4 col-xl-4 mt-5">
+            <div className="col-md-4 col-xl-4 mt-4">
               <div className="d-flex align-items-end gap-5 justify-content-center justify-content-md-start">
                 <div>
                   <img className="" src="images/logo-footer-sesc.png" alt="Logo Fecomércio Sesc" />
