@@ -1,6 +1,7 @@
 import AboutUs from "./Pages/AboutUs";
 import Home from "./Pages/Home";
 import VacantJob from "./Pages/VacantJob";
+import ProfissionalOrientation from './Pages/ProfissionalOrientation'
 
 
 const AppRoutes = [
@@ -15,6 +16,10 @@ const AppRoutes = [
   {
     path: '/vagas',
     element: <VacantJob />
+  },
+  {
+    path: '/orientacao-profissional',
+    element: <ProfissionalOrientation />
   },
 ];
 

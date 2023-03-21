@@ -19,7 +19,7 @@ const NavMenu = ({menu = false}) => {
               <Link to="/vagas">
                 <li className="nav-item text-nowrap">Vagas</li>
               </Link>
-              <Link to="/">
+              <Link to="/orientacao-profissional">
                 <li className="nav-item text-nowrap">Orientação Profissional</li>
               </Link>
               <Link to="/">

@@ -1,0 +1,20 @@
+.TitleImg {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  color: #0064B8;
+}
+
+.BtnInscription {
+  width: 189px;
+  height: 38px;
+  background-color: #0064B8;
+}
+
+.BtnInscription:hover {
+  background-color: #03579e;
+}
+
+.BtnInscription:active {
+  background-color: #034985;
+}

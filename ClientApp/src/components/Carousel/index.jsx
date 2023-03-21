@@ -11,7 +11,7 @@ const Slider = () => {
               backgroundImage: `url("images/senac2.png")`,
               backgroundPosition: `center center`,
               backgroundSize: `cover`,
-              baclgroundRepeat: `no-repeat`,
+              backgroundRepeat: `no-repeat`,
               height: `65vh`
             }}>
               <div className="container">
