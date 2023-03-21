@@ -30,7 +30,7 @@ const Footer = () => {
                 <div>&copy; Todos os direitos reservados</div>
               </div>
             </div>
-            <div className="col-md-4 col-xl-4 mt-5 ms-auto" style={{width: '240px'}}>
+            <div className="col-md-4 col-xl-4 mt-5 ms-auto mx-auto me-lg-0 ms-lg-auto" style={{width: '240px'}}>
               <ul className={`list-unstyled text-center text-md-start  ${styles.colorTextMenu}`}>
                 <Link to="/" className={`${styles.colorTextMenu}`}>
                   <li>Área do candidato</li>
