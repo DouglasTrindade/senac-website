@@ -23,7 +23,7 @@ const Footer = () => {
                   <img className="" src="images/logo-footer-senac.png" alt="Logo Empregabilidade Senac" />
                 </div>
               </div>
-              <div className="mt-5 text-center text-md-start">
+              <div className="d-flex flex-column mt-5 text-center text-md-start">
                 <p>
                   Serviço Nacional de Aprendizagem Comercial Departamento Regional do Rio Grande do Norte 2022 
                 </p>
@@ -31,7 +31,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-md-4 col-xl-4 mt-5 ms-auto mx-auto me-lg-0 ms-lg-auto" style={{width: '240px'}}>
-              <ul className={`list-unstyled text-center text-md-start  ${styles.colorTextMenu}`}>
+              <ul className={`list-unstyled text-center text-md-start ${styles.colorTextMenu}`}>
                 <Link to="/" className={`${styles.colorTextMenu}`}>
                   <li>Área do candidato</li>
                 </Link>
