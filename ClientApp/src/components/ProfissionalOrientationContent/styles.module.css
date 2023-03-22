@@ -18,3 +18,38 @@
 .BtnInscription:active {
   background-color: #034985;
 }
+
+.TextJobInterview {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  color: #0064B8;
+}
+
+.BtnJobInterview {
+  width: 145px;
+  height: 38px;
+  background-color: #0064B8;
+}
+
+.BtnJobInterview:hover {
+  background-color: #03579e;
+}
+
+.BtnJobInterview:active {
+  background-color: #034985;
+}
+
+.BtnCurricPrimer {
+  width: 167px;
+  height: 38px;
+  background-color: #0064B8;
+}
+
+.BtnCurricPrimer:hover {
+  background-color: #03579e;
+}
+
+.BtnCurricPrimer:active {
+  background-color: #034985;
+}
