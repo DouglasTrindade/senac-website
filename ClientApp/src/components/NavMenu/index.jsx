@@ -22,7 +22,7 @@ const NavMenu = ({menu = false}) => {
               <Link to="/orientacao-profissional">
                 <li className="nav-item text-nowrap">Orientação Profissional</li>
               </Link>
-              <Link to="/">
+              <Link to="/fale-conosco">
                 <li className="nav-item text-nowrap">Fale Conosco</li>
               </Link>
               <Link to="/">

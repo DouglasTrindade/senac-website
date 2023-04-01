@@ -1,0 +1,20 @@
+.Title {
+  color: #0064B8;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.SendBtn {
+  background-color: #0064B8;
+  width: 282px;
+  height: 38px;
+}
+
+.SendBtn:hover {
+  background-color: #03579e;
+}
+
+.SendBtn:active {
+  background-color: #034985;
+}

@@ -2,7 +2,7 @@ import AboutUs from "./Pages/AboutUs";
 import Home from "./Pages/Home";
 import VacantJob from "./Pages/VacantJob";
 import ProfissionalOrientation from './Pages/ProfissionalOrientation'
-
+import ContactUs from './Pages/ContactUs'
 
 const AppRoutes = [
   {
@@ -20,6 +20,10 @@ const AppRoutes = [
   {
     path: '/orientacao-profissional',
     element: <ProfissionalOrientation />
+  },
+  {
+    path: '/fale-conosco',
+    element: <ContactUs />
   },
 ];
 
