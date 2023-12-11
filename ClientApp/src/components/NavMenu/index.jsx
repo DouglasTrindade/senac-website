@@ -2,7 +2,13 @@ import styles from './styles.module.css';
 import { Collapse } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 
+
+
 const NavMenu = ({menu = false}) => {
+  
+  const handleClick = () => {
+    window.location.assign("https://www.rn.senac.br/principal")
+  }
 
   return (
     <>
@@ -25,9 +31,9 @@ const NavMenu = ({menu = false}) => {
               <Link to="/fale-conosco">
                 <li className="nav-item text-nowrap">Fale Conosco</li>
               </Link>
-              <Link to="/">
+              <div onClick={handleClick}>
                 <li className="nav-item text-nowrap">Portal Senac</li>
-              </Link>
+              </div>
               <Link to="/">
                 <li className="nav-item text-nowrap">Central de Dúvidas</li>
               </Link>
